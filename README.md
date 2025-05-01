@@ -1,8 +1,18 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task Manager é um aplicativo de gerenciamento de tarefas simples e eficiente, criado com React, Vite e Tailwind CSS. Este projeto visa fornecer uma interface de usuário moderna e fácil de usar para ajudar os usuários a organizar suas tarefas diárias.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **Vite**: Ferramenta de construção de projetos web, rápida e otimizada.
+- **Tailwind CSS**: Framework CSS utilitário para uma estilização rápida e personalizável.
+
+## Funcionalidades
+
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+- Remover tarefas.
+- Interface de usuário limpa e responsiva, otimizada para dispositivos móveis.
+
+
