@@ -24,9 +24,12 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
             {task.title}
           </button>
 
-          <button onClick={() => {
-            onSeeDetailsClick(task); 
-          }} className="bg-slate-400 p-2 rounded-md text-white">
+          <button
+            onClick={() => {
+              onSeeDetailsClick(task);
+            }}
+            className="bg-slate-400 p-2 rounded-md text-white"
+          >
             <ChevronRightIcon />
           </button>
 
