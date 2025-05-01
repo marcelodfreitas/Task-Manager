@@ -21,7 +21,17 @@ function AddTasks({ onAddTaskSubmit }) {
         onChange={(event) => setDescription(event.target.value)}
       />
       <button
-        onClick={() => onAddTaskSubmit(title, description)}
+        onClick={() => {
+          if (!title.trim() || !description.trim()) {
+            return alert("Preencha o título e a descrição da tarefa!!");
+          }
+          if (title.length < 5) {
+            return alert("O título deve ter mais de 5 caracteres");
+          }
+          onAddTaskSubmit(title, description);
+          setTitle("");
+          setDescription("");
+        }}
         className="bg-slate-500 text-white px-4 py-2 rounded-md font-medium"
       >
         Adicionar
